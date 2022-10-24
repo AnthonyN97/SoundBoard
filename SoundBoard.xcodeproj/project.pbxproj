@@ -14,6 +14,10 @@
 		38A183B3290714F20023A395 /* SoundBoard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38A183B1290714F20023A395 /* SoundBoard.xcdatamodeld */; };
 		38A183B5290714F60023A395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A183B4290714F60023A395 /* Assets.xcassets */; };
 		38A183B8290714F60023A395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A183B6290714F60023A395 /* LaunchScreen.storyboard */; };
+		38A183E729071E6D0023A395 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A183E629071E6D0023A395 /* SoundViewController.swift */; };
+		38A183EF290724800023A395 /* anime-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A183EE290724800023A395 /* anime-emoji.png */; };
+		38A183F129072A250023A395 /* tosahka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38A183F029072A250023A395 /* tosahka.jpg */; };
+		38A183F329072A740023A395 /* anime-emoji-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A183F229072A740023A395 /* anime-emoji-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		38A183B4290714F60023A395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38A183B7290714F60023A395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38A183B9290714F60023A395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A183E629071E6D0023A395 /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		38A183EE290724800023A395 /* anime-emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anime-emoji.png"; sourceTree = "<group>"; };
+		38A183F029072A250023A395 /* tosahka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tosahka.jpg; sourceTree = "<group>"; };
+		38A183F229072A740023A395 /* anime-emoji-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anime-emoji-2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		38A183A7290714F20023A395 /* SoundBoard */ = {
 			isa = PBXGroup;
 			children = (
+				38A183E629071E6D0023A395 /* SoundViewController.swift */,
 				38A183A8290714F20023A395 /* AppDelegate.swift */,
 				38A183AA290714F20023A395 /* SceneDelegate.swift */,
 				38A183AC290714F20023A395 /* ViewController.swift */,
@@ -66,6 +75,9 @@
 				38A183B6290714F60023A395 /* LaunchScreen.storyboard */,
 				38A183B9290714F60023A395 /* Info.plist */,
 				38A183B1290714F20023A395 /* SoundBoard.xcdatamodeld */,
+				38A183EE290724800023A395 /* anime-emoji.png */,
+				38A183F029072A250023A395 /* tosahka.jpg */,
+				38A183F229072A740023A395 /* anime-emoji-2.png */,
 			);
 			path = SoundBoard;
 			sourceTree = "<group>";
@@ -128,8 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38A183F329072A740023A395 /* anime-emoji-2.png in Resources */,
 				38A183B8290714F60023A395 /* LaunchScreen.storyboard in Resources */,
+				38A183EF290724800023A395 /* anime-emoji.png in Resources */,
 				38A183B5290714F60023A395 /* Assets.xcassets in Resources */,
+				38A183F129072A250023A395 /* tosahka.jpg in Resources */,
 				38A183B0290714F20023A395 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +160,7 @@
 				38A183AD290714F20023A395 /* ViewController.swift in Sources */,
 				38A183A9290714F20023A395 /* AppDelegate.swift in Sources */,
 				38A183AB290714F20023A395 /* SceneDelegate.swift in Sources */,
+				38A183E729071E6D0023A395 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
